@@ -220,13 +220,13 @@ h6 {
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
   --heading-color: #ffffff;
-  --nav-color: #ffffff;
+  --nav-color: #ffffff;   
 }
 
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: rgba(40, 58, 90, 0.9);
+  --background-color: rgba(43, 43, 85, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -845,7 +845,7 @@ section,
   display: block;
   width: 60px;
   height: 3px;
-  background: var(--accent-color);
+  background: navy;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1462,6 +1462,7 @@ section,
   margin: 10px;
   border: 2px solid var(--contrast-color);
   color: var(--contrast-color);
+  background-color: transparent;
 }
 
 .call-to-action .cta-btn:hover {
@@ -2157,8 +2158,8 @@ section,
 .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
+  border-top: 3px solid navy;
+  border-bottom: 3px solid navy;
   padding: 30px;
   height: 100%;
 }
@@ -2201,7 +2202,7 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: navy;
   color: var(--contrast-color);
 }
 
@@ -2209,8 +2210,8 @@ section,
   background-color: var(--surface-color);
   height: 100%;
   padding: 30px;
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
+  border-top: 3px solid navy;
+  border-bottom: 3px solid navy;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -2246,15 +2247,16 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: navy;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
+  ;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  background: color-mix(in srgb, navy, transparent 25%);
 }
 
 /*--------------------------------------------------------------
